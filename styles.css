@@ -1,0 +1,49 @@
+.screen {
+    border: 2px solid black;
+    height: 40px;
+    width: 260px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.result {
+    font-weight: normal;
+    right: 10px;
+    margin-right: 3px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+}
+
+.numbers, .operators{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.clear{
+    background-color: rgb(116, 218, 125);
+    width: 100px;
+    margin-top: 7px;
+}
+
+button {
+    margin: 2px;
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: rgb(184, 218, 248);
+}
+
+input {
+    height: 30px;
+    width: 150px;
+    font-size: 18px;
+    text-align: right;
+    margin-top: 3px;
+    margin-bottom: 5px;
+}

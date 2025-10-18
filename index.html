@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="screen">
+        <h2 id="result" class="result"></h2>
+    </div>
+    <div class="buttons">
+        <div class="numbers">
+            <input id="number1" type="text"/>
+            <input id="number2" type="text"/>
+        </div>
+        <div class="operators">
+            <div class="top-row">
+                <button id="plus">+</button>
+                <button id="minus">-</button>
+            </div>
+            <div class="bottom-row">
+                <button id="multiply">*</button>
+                <button id="divide">/</button>
+            </div>
+        </div>
+        <button id="clear" class="clear">Limpiar</button>
+    </div>
+    <div id="history" class="history">
+        <h3>Historial</h3>
+        <ol id="historyList"></ol>
+    </div>
+</body>
+<script defer src="script.js"></script>
+</html>
